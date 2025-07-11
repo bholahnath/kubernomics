@@ -10,5 +10,7 @@ AWS credentials via CLI or environment variables
 
 Run Terraform:
 terraform init
-terraform plan
-terraform apply
+terraform validate
+terraform plan -var-file="terraform.tfvars"
+terraform apply -var-file="terraform.tfvars"
+
