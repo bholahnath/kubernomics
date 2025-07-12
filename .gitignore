@@ -1,0 +1,16 @@
+#################################################################
+# Default .gitignore content for all terraform-aws-modules below
+#################################################################
+
+.DS_Store
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform lockfile
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfplan
